@@ -1,0 +1,9 @@
+*.pyc
+*.py~
+.ipynb_checkpoints
+*.egg-info
+*.pdf
+__pycache__/
+logs/
+venv/
+.idea/

@@ -44,7 +44,7 @@ create_discretised_environment.environment_seed = 0
 # only needed for `create_environment_fn`.
 Runner.create_environment_fn = @multi_cont_lib.create_discretised_environment
 Runner.agent_seed = 0
-Runner.num_iterations = 300
+Runner.num_iterations = 2
 Runner.training_steps = 10000
 Runner.evaluation_steps = 5000
 Runner.render = False
